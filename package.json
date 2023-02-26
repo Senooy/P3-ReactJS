@@ -1,0 +1,25 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "projet permettant de réserver des plats",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senooy/P3-ReactJS.git"
+  },
+  "keywords": [
+    "restaurant",
+    "restauration",
+    "réservation"
+  ],
+  "author": "younes khelifi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Senooy/P3-ReactJS/issues"
+  },
+  "homepage": "https://github.com/Senooy/P3-ReactJS#readme"
+}

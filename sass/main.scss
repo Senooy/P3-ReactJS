@@ -1,15 +1,19 @@
-$color-primary: #FF0000;
-$font-size-medium: 16px;
+@import "./utils/variables";
+//@import "./utils/functions";
+@import "./utils/mixins";
+//@import "./utils/extensions";
 
-body {
-  background-color: $color-primary;
-  font-size: $font-size-medium;
+@import "./base/base";
+@import "./base/typography";
 
-  h1 {
-    font-size: $font-size-medium * 2;
-  }
+@import "./components/buttons";
+@import "./components/cards-desc";
 
-  p {
-    color: #000000;
-  }
-}
+
+@import "./layout/container";
+@import "./layout/header";
+
+
+@import "./pages/haut-page";
+@import "./pages/resto";
+

@@ -1,19 +1,19 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "permet aux",
-  "main": "restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte",
+  "description": "Projet ohmyfood",
+  "main": "",
   "scripts": {
     "sass" : "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/belaidSolene/ohmyfood.git"
+    "url": "git+https://github.com/Senooy/P3-ReactJS.git"
   },
-  "author": "belaid solene",
+  "author": "Younes Khelifi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/belaidSolene/ohmyfood/issues"
+    "url": "https://github.com/Senooy/P3-ReactJS/issues"
   },
-  "homepage": "https://github.com/belaidSolene/ohmyfood#readme"
+  "homepage": "https://github.com/Senooy/P3-ReactJS#readme"
 }

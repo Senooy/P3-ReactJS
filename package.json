@@ -2,7 +2,7 @@
   "name": "ohmyfood",
   "version": "1.0.0",
   "description": "projet permettant de réserver des plats",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },

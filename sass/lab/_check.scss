@@ -1,10 +1,10 @@
 //TEST DANS MENU--LA-NOTE-ENCHANTEE
 
 .bg-menu--clip {
-//margin-top: -5em;
+  //margin-top: -5em;
 
   img {
-  //  clip-path: polygon(0 22%, 100% 22%, 100% 100%, 0 100%);
+    //  clip-path: polygon(0 22%, 100% 22%, 100% 100%, 0 100%);
   }
 }
 
@@ -18,24 +18,26 @@
   @include shadow();
 
   display: grid;
-  grid-template-columns: 1fr 2.5em 0;
+  grid-template-columns: 1fr 2.5em 0%;
   grid-template-rows: 2fr;
   align-items: center;
 
-  @include after-pos-init;
-  @include hover-after-op;
-  
-  &::after {
-    @include after-elem-op;
-    display: grid;
+  transition: 250ms;
+
+  &:hover {
     grid-template-columns: 1fr 2.5em 20%;
+
+    .fa-circle-check {
+      transform: rotate(2turn);
+    }
   }
+
 
   &__title {
     font-size: 1em;
     padding-top: 0.5em;
   }
-  
+
 
   &__subtitle {
     grid-row-start: 2;
@@ -54,27 +56,17 @@
     padding-bottom: 0.5em;
   }
 
-  .fa-circle-check {
+  &__check {
+    height: 100%;
     grid-row: 1 / span 2;
+    background-color: $color-tertiary;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $color-contrast;
-    background-color: $color-tertiary;
-    height: 100%;
-  }
-
-
-
-
-  &--reduce {
-    grid-template-columns: 1fr 2.5em 20%;
 
     .fa-circle-check {
-
-      background-color: $color-tertiary;
-      height: 100%;
-
+      color: $color-contrast;
+      transition: transform 250ms ease-out;
     }
   }
 }
